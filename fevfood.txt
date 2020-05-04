@@ -1,3 +1,0 @@
-1.fruits
-2.fish
-3.meat

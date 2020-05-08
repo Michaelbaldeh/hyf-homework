@@ -1,5 +1,0 @@
-fevourite food
-
-1.rice
-2.soup
-3.pasta

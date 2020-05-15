@@ -1,5 +1,5 @@
-const dogYearOfBirth = 2009
-const dogYearFuture = 2027
+const dogYearOfBirth = 2009;
+const dogYearFuture = 2027;
 const dogYear = dogYearFuture - dogYearOfBirth;
 console.log(dogYear);
 

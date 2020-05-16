@@ -1,11 +1,14 @@
-const firstWords=["success", "high", "low", "profits",
- "memo", "cut", "cost", "current", "best", "great"];
-const secondWords=["firm", "marketing", "deals", "finance", "venture", 
-"press", "commercial", "income", "expenditure", "accounts" ];
+const dogYearOfBirth = 2009;
+const dogYearFuture = 2027;
+const dogYear = dogYearFuture - dogYearOfBirth;
+console.log(dogYear);
 
-const randomNumber = Math.floor(Math.random() * 10) + 0;
+const shouldShowResultInDogYears = true;
 
-const startupName=firstWords[randomNumber]+ ' ' +secondWords[randomNumber];
-const length=firstWords[randomNumber].length +secondWords[randomNumber].length;
+if (shouldShowResultInDogYears) {
+    console.log ('the dog will be' + dogYear * 7 + 'years old by' + dogYearFuture);
+}
 
-console.log(' statrtup name ' + startupName +' is with ' +' ' + length +' characers');
+else{
+    console.log('the dog will be' + dogYear + 'owner years by' + dogYearFuture)
+}

@@ -6,9 +6,7 @@ console.log(dogYear);
 const shouldShowResultInDogYears = true;
 
 if (shouldShowResultInDogYears) {
-    console.log ('the dog will be' + dogYear * 7 + 'years old by' + dogYearFuture);
-}
-
-else{
-    console.log('the dog will be' + dogYear + 'owner years by' + dogYearFuture)
+  console.log("the dog will be" + dogYear * 7 + "years old by" + dogYearFuture);
+} else {
+  console.log("the dog will be" + dogYear + "owner years by" + dogYearFuture);
 }

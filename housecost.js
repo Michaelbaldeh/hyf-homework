@@ -1,5 +1,5 @@
-const volumeInMeters = 8*10*10;
-const gardenSizeInM2 = 100;
+let volumeInMeters = 8 * 10 * 10;  //Measurement of the width,height, and the depth of peter's house
+let gardenSizeInM2 = 100;
 const peterHouseCost = 2500000;
 const juliaHouseCost = 1000000;
 
@@ -13,7 +13,7 @@ else {
 }
 
 
-volumeInMeters = 5*11*8;
+volumeInMeters = 5 * 11 * 8; // Measurement of width, height, and depth of Julia's house
 gardenSizeInM2 = 70;
 juliaHouseCost = 1000000;
  housePrice = volumeInMeters * 2.5 * 1000 + gardenSizeInM2 * 300;

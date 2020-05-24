@@ -3,17 +3,13 @@ const amountTospend = Math.random() * 100;
 
 function addCandy(candyType, weight) {
   if (candyType === "Sweet") {
-    candyPrice = 0.5 * weight;
-    broughtCandyPrices.push(candyPrice);
+    broughtCandyPrices.push(0.5 * weight);
   } else if (candyType === "Chocolate") {
-    candyPrice = 0.7 * weight;
-    broughtCandyPrices.push(candyPrice);
+    broughtCandyPrices.push(0.7 * weight);
   } else if (candyType === "Toffee") {
-    candyPrice = 1.1 * weight;
-    broughtCandyPrices.push(candyPrice);
+    broughtCandyPrices.push(1.1 * weight);
   } else if (candyType === "Chewing-Gum") {
-    candyPrice = 0.3 * weight;
-    broughtCandyPrices.push(candyPrice);
+    broughtCandyPrices.push(0.3 * weight);
   } else {
     console.log("You cannnot buy this candy");
   }
@@ -35,6 +31,7 @@ function canBuyMoreCandy() {
     return true;
   } else {
     console.log("Enought candy for you");
+    return false;
   }
 }
 console.log(canBuyMoreCandy());

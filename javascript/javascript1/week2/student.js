@@ -7,7 +7,7 @@ function addStudentToClass(studentName) {
     console.log("Student " + studentName + " is already an existing student ");
   } else if (class07Students === "Queen") {
     class07Students.push(studentName);
-  } else if (studentName === "") {
+  } else if (studentName.trim() === "") {
     console.log("You cannot add an empty string to a class");
   } else {
     class07Students.push(studentName);

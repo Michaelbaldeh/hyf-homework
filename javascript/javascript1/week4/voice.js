@@ -46,7 +46,7 @@ function getReply(command) {
   }
 }
 
-console.log(getReply("Hello my name is Michael"));
+console.log(getReply("Hello my name is "));
 console.log(getReply("What is my name?"));
 console.log(getReply("Add fishing to my todo"));
 console.log(getReply("What day is it today?"));

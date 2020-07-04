@@ -108,10 +108,10 @@ const movies = [
   },
 ];
 // Create an array of movies containing the movies with a short title
-const shortMovieTitle = movies.filter((movies) => movies.title.length < 10);
+const shortMovieTitle = movies.filter((movie) => movies.title.length < 10);
 console.log(shortMovieTitle);
 // Create an array of movie titles with long movie titles
-const longMovieTitle = movies.filter((movies) => movies.title.length > 10);
+const longMovieTitle = movies.filter((movie) => movies.title.length > 10);
 console.log(longMovieTitle);
 // Count the number of movies made between 1980-1989 (including both the years)
 // const moviesMadeByYear = movies.filter(
@@ -133,7 +133,7 @@ const moviesTag = movies.filter(
 // const moviesHighRatings = movies.filter((movies) => movies.rating > 6);
 // const mapRatings = movies.map((movies) => movies.rating);
 const moviesHighRatings = movies
-  .filter((movies) => movies.rating > 6)
+  .filter((movie) => movie.rating > 6)
   .filter((movie) => movie.rating > 6)
   .map((movies) => movies.rating);
 console.log(moviesHighRatings);
@@ -147,7 +147,7 @@ const moviesWithKeyWords = movies.filter(
 console.log(moviesWithKeyWords.length);
 // Create an array of movies where a word in the title is duplicated.
 const moviesWithDublicateName = movies.filter(
-  (movies) => movies.title.indexOf(movies.title) === movies.title
+  (movies) => movies.title.indexOf(movies.title) && movies.title
 );
 console.log(moviesWithDublicateName);
 // Calculate the average rating of all the movies using reduce. Optional

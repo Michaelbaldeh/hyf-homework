@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: bisque;
+}
+#button-click {
+  font-size: 30px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(0, 255, 106);
+  border-radius: 70px;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.input {
+  text-align: center;
+  margin: 100px, 0;
+}
+input[type="text"] {
+  height: 50px;
+  width: 600px;
+  background-color: rgb(228, 235, 235);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 10px;
+}
+input[type="submit"] {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(223, 230, 230);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+}
+.display {
+  text-align: center;
+}

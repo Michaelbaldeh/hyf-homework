@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Michael",
+    "possition": "center back",
+    "team": "Hawks",
+    "rateOfFitness": 6.5
+  },
+  {
+    "continent": "Europe",
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "friends": ["John", " Muhamed", "Sonjay", "Sarah", "Oler"]
+  },
+  {
+    "name": "Peter",
+    "possition": "Stopper",
+    "team": "Pirates",
+    "Goals": "False",
+    "rateOfFitness": 88
+  },
+  {
+    "contact": "2468",
+    "email": "live@live.com",
+    "city": "Malmo",
+    "friends": ["Saul", "Khalid", "Pierre", "Anna", "Anita"]
+  }
+]

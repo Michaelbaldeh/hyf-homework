@@ -1,9 +1,9 @@
-let button = document.querySelector(".button");
+let btnSubmit = document.querySelector(".button");
 let inputValue = document.querySelector(".inputValue");
 let nameValue = document.querySelector(".name");
 let desc = document.querySelector(".desc");
 let temp = document.querySelector(".temp");
-button.addEventListener("click", function () {
+btnSubmit.addEventListener("click", function () {
   fetch(
     "https://api.openweathermap.org/data/2.5/weather?q=" +
       inputValue.value +

@@ -45,4 +45,4 @@ GROUP BY status.id;
 -- 10 Get the names of all statuses, sorted by the status with most tasks first
 SELECT status.name, count(task.status_id)
 FROM task JOIN STATUS ON task.status_id=status.id
-GROUP BY status.id ORDER BY task.id;
+count status.id ORDER BY task.id;

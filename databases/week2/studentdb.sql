@@ -4,8 +4,8 @@ USE schoolstudent_db;
 CREATE TABLE class(
 id int unsigned primary key auto_increment,
 classname varchar(255) not null,
-begins datetime,
-ends datetime
+begins date,
+ends date
 );
 -- student table content
 CREATE TABLE student(
@@ -14,12 +14,14 @@ studentname varchar(255) not null,
 email varchar(255) not null unique,
 phone int unique,
 class_id int unsigned not null,
-FOREIGN KEY (class_id) references class(id)
 );
 -- index content
 CREATE INDEX index_studentname
 on student(name);
 
-ALTER TABLE class
-ADD status enum('not-started','ongoing','finish') not null;
+ALTER TABLE class 
+ADD status enum('not-started','ongoing','finished') not null;
+
+ALTER TABLE studend_students Alter COLUMN
+  STATUS SET DEFAULT "ongoing";
 

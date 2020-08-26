@@ -8,7 +8,7 @@ IF NOT EXISTS (
         FROM sys.databases
         WHERE name = N'mealsapp_db'
 )
-CREATE DATABASE mealapp_db
+CREATE DATABASE mealsapp_db
 GO
 
 --Reservation Table
